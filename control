@@ -1,0 +1,9 @@
+Package: com.devvix.autoreplay
+Name: AutoReplay
+Depends: mobilesubstrate
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Devvix
+Author: Devvix
+Section: Tweaks
