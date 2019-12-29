@@ -69,7 +69,6 @@ static bool isFirstTryAfterEnding = false;
 
 %ctor {
 	float version = [[[UIDevice currentDevice] systemVersion] floatValue];
-	NSLog(@"AUTOREPLAY - Version: %f", version);
 	if (version < 13) {
 		%init(IOS12);
 	} else {
